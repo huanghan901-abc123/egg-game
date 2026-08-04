@@ -1,0 +1,9 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+
+# Local runtime data
+node_modules/
+dist/

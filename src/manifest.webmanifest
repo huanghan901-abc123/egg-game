@@ -1,0 +1,19 @@
+{
+  "name": "小蛋的单词冒险",
+  "short_name": "小蛋冒险",
+  "description": "在闯关中学习小学英语单词。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#87ceeb",
+  "theme_color": "#ff6b6b",
+  "icons": [
+    {
+      "src": "../assets/characters/egg_default.png",
+      "sizes": "1920x1920",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
