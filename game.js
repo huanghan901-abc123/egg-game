@@ -3,59 +3,59 @@
 // 皮肤数据
 const SKINS = {
     // 普通品质
-    default: { name: '默认小蛋', img: '../assets/characters/egg_default.png', rarity: 'common' },
-    crocodile: { name: '鳄鱼小蛋', img: '../assets/characters/egg_crocodile.png', rarity: 'common' },
-    gorilla: { name: '猩猩小蛋', img: '../assets/characters/egg_gorilla.png', rarity: 'common' },
-    hippo: { name: '河马小蛋', img: '../assets/characters/egg_hippo.png', rarity: 'common' },
-    giraffe: { name: '长颈鹿小蛋', img: '../assets/characters/egg_giraffe.png', rarity: 'common' },
+    default: { name: '默认小蛋', img: 'assets/characters/egg_default.png', rarity: 'common' },
+    crocodile: { name: '鳄鱼小蛋', img: 'assets/characters/egg_crocodile.png', rarity: 'common' },
+    gorilla: { name: '猩猩小蛋', img: 'assets/characters/egg_gorilla.png', rarity: 'common' },
+    hippo: { name: '河马小蛋', img: 'assets/characters/egg_hippo.png', rarity: 'common' },
+    giraffe: { name: '长颈鹿小蛋', img: 'assets/characters/egg_giraffe.png', rarity: 'common' },
     // 稀有品质
-    dino: { name: '恐龙小蛋', img: '../assets/characters/egg_dino.png', rarity: 'rare' },
-    pangolin: { name: '穿山甲小蛋', img: '../assets/characters/egg_pangolin.png', rarity: 'rare' },
+    dino: { name: '恐龙小蛋', img: 'assets/characters/egg_dino.png', rarity: 'rare' },
+    pangolin: { name: '穿山甲小蛋', img: 'assets/characters/egg_pangolin.png', rarity: 'rare' },
     // 史诗品质
-    wizard: { name: '魔法师小蛋', img: '../assets/characters/egg_wizard.png', rarity: 'epic' },
-    cat: { name: '小猫小蛋', img: '../assets/characters/egg_cat.png', rarity: 'epic' },
+    wizard: { name: '魔法师小蛋', img: 'assets/characters/egg_wizard.png', rarity: 'epic' },
+    cat: { name: '小猫小蛋', img: 'assets/characters/egg_cat.png', rarity: 'epic' },
     // 传说品质
-    ninja: { name: '忍者小蛋', img: '../assets/characters/egg_ninja.png', rarity: 'legendary' },
-    student: { name: '学生小蛋', img: '../assets/characters/egg_student.png', rarity: 'legendary' },
+    ninja: { name: '忍者小蛋', img: 'assets/characters/egg_ninja.png', rarity: 'legendary' },
+    student: { name: '学生小蛋', img: 'assets/characters/egg_student.png', rarity: 'legendary' },
     // 至尊无敌品质
-    haohao: { name: '昊浩小蛋', img: '../assets/characters/egg_haohao.png', rarity: 'mythic' }
+    haohao: { name: '昊浩小蛋', img: 'assets/characters/egg_haohao.png', rarity: 'mythic' }
 };
 
 // 地图背景图
 const MAP_BACKGROUNDS = {
     desert: [
-        '../assets/backgrounds/desert/desert_01_worm_cave.png',
-        '../assets/backgrounds/desert/desert_02_oasis_camp.png',
-        '../assets/backgrounds/desert/desert_03_quicksand_chest.png',
-        '../assets/backgrounds/desert/desert_04_mine_entrance.png',
-        '../assets/backgrounds/desert/desert_05_small_oasis.png',
-        '../assets/backgrounds/desert/desert_06_camel_shop.png',
-        '../assets/backgrounds/desert/desert_07_rock_arch.png',
-        '../assets/backgrounds/desert/desert_08_bone_wasteland.png',
-        '../assets/backgrounds/desert/desert_09_red_canyon.png',
-        '../assets/backgrounds/desert/desert_10_ancient_ruins.png',
-        '../assets/backgrounds/desert/desert_11_sundial_stones.png',
-        '../assets/backgrounds/desert/desert_12_mushroom_rocks.png',
-        '../assets/backgrounds/desert/desert_13_desert_tower.png',
-        '../assets/backgrounds/desert/desert_14_golden_temple.png',
-        '../assets/backgrounds/desert/desert_15_mirage.png'
+        'assets/backgrounds/desert/desert_01_worm_cave.png',
+        'assets/backgrounds/desert/desert_02_oasis_camp.png',
+        'assets/backgrounds/desert/desert_03_quicksand_chest.png',
+        'assets/backgrounds/desert/desert_04_mine_entrance.png',
+        'assets/backgrounds/desert/desert_05_small_oasis.png',
+        'assets/backgrounds/desert/desert_06_camel_shop.png',
+        'assets/backgrounds/desert/desert_07_rock_arch.png',
+        'assets/backgrounds/desert/desert_08_bone_wasteland.png',
+        'assets/backgrounds/desert/desert_09_red_canyon.png',
+        'assets/backgrounds/desert/desert_10_ancient_ruins.png',
+        'assets/backgrounds/desert/desert_11_sundial_stones.png',
+        'assets/backgrounds/desert/desert_12_mushroom_rocks.png',
+        'assets/backgrounds/desert/desert_13_desert_tower.png',
+        'assets/backgrounds/desert/desert_14_golden_temple.png',
+        'assets/backgrounds/desert/desert_15_mirage.png'
     ],
     forest: [
-        '../assets/backgrounds/forest/forest_01_tree_house.png',
-        '../assets/backgrounds/forest/forest_02_crystal_shrine.png',
-        '../assets/backgrounds/forest/forest_03_lightning_tree.png',
-        '../assets/backgrounds/forest/forest_04_glowing_path.png',
-        '../assets/backgrounds/forest/forest_05_rope_bridge.png',
-        '../assets/backgrounds/forest/forest_06_bone_cave.png',
-        '../assets/backgrounds/forest/forest_07_herb_garden.png',
-        '../assets/backgrounds/forest/forest_08_forest_camp.png',
-        '../assets/backgrounds/forest/forest_09_foggy_forest.png',
-        '../assets/backgrounds/forest/forest_10_mushroom_forest.png',
-        '../assets/backgrounds/forest/forest_11_rune_stones.png',
-        '../assets/backgrounds/forest/forest_12_waterfall.png',
-        '../assets/backgrounds/forest/forest_13_swamp.png',
-        '../assets/backgrounds/forest/forest_14_tree_root_cave.png',
-        '../assets/backgrounds/forest/forest_15_moss_stele.png'
+        'assets/backgrounds/forest/forest_01_tree_house.png',
+        'assets/backgrounds/forest/forest_02_crystal_shrine.png',
+        'assets/backgrounds/forest/forest_03_lightning_tree.png',
+        'assets/backgrounds/forest/forest_04_glowing_path.png',
+        'assets/backgrounds/forest/forest_05_rope_bridge.png',
+        'assets/backgrounds/forest/forest_06_bone_cave.png',
+        'assets/backgrounds/forest/forest_07_herb_garden.png',
+        'assets/backgrounds/forest/forest_08_forest_camp.png',
+        'assets/backgrounds/forest/forest_09_foggy_forest.png',
+        'assets/backgrounds/forest/forest_10_mushroom_forest.png',
+        'assets/backgrounds/forest/forest_11_rune_stones.png',
+        'assets/backgrounds/forest/forest_12_waterfall.png',
+        'assets/backgrounds/forest/forest_13_swamp.png',
+        'assets/backgrounds/forest/forest_14_tree_root_cave.png',
+        'assets/backgrounds/forest/forest_15_moss_stele.png'
     ]
 };
 
@@ -726,6 +726,32 @@ function randomDialog() {
     document.getElementById('dialog-text').textContent = dialog;
 }
 
+// 预加载语音列表（部分浏览器首次 getVoices() 返回空，需在加载完成后重试）
+function warmUpVoices() {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.getVoices();
+    if (typeof window.speechSynthesis.onvoiceschanged === 'undefined' ||
+        window.speechSynthesis.onvoiceschanged === null) {
+        window.speechSynthesis.onvoiceschanged = function () {
+            window.speechSynthesis.getVoices();
+        };
+    }
+}
+
+// 选取一个英文语音；移动端必须显式指定 voice，否则默认中文语音可能静音或读不出来
+function getEnglishVoice() {
+    const voices = window.speechSynthesis.getVoices();
+    if (!voices.length) return null;
+    // 1. 优先：en-US 且为常见英文音色
+    // 2. 其次：任意英语语音（en 开头）
+    // 3. 兜底：en-US
+    const preferName = /Google|Siri|Samantha|Microsoft|Daniel|Karen|Moira|Tessa/i;
+    const enUSNamed = voices.find(v => v.lang === 'en-US' && preferName.test(v.name));
+    const enAny = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+    const enUS = voices.find(v => v.lang === 'en-US');
+    return enUSNamed || enAny || enUS || null;
+}
+
 // 使用浏览器内置语音朗读；移动端需要由点击事件触发。
 function speakWord(word) {
     if (!('speechSynthesis' in window)) {
@@ -736,6 +762,11 @@ function speakWord(word) {
     const utterance = new SpeechSynthesisUtterance(word);
     utterance.lang = 'en-US';
     utterance.rate = 0.8;
+    const voice = getEnglishVoice();
+    if (voice) {
+        utterance.voice = voice;
+        utterance.lang = voice.lang; // 与所选语音保持一致
+    }
     window.speechSynthesis.speak(utterance);
 }
 
@@ -1112,7 +1143,12 @@ function speak(text, volume = 1) {
         utterance.rate = 1.1; // 语速稍快
         utterance.pitch = 1.2; // 音调稍高，更可爱
         utterance.volume = volume; // 音量
-        
+        // 显式选择中文语音，避免移动端默认语音异常导致无声
+        const zhVoice = window.speechSynthesis.getVoices().find(v => v.lang && v.lang.toLowerCase().replace('_', '-').startsWith('zh'));
+        if (zhVoice) {
+            utterance.voice = zhVoice;
+            utterance.lang = zhVoice.lang;
+        }
         window.speechSynthesis.speak(utterance);
     }
 }
@@ -1757,16 +1793,31 @@ function shuffleArray(array) {
 // ==================== 音效系统 ====================
 
 let audioCtx = null;
+let audioUnlocked = false;
 
 // 初始化音频上下文（需要用户交互后才能初始化）
+// iOS/Android：AudioContext 必须在用户手势的同步阶段创建并恢复，
+// 否则会保持挂起状态，导致 setTimeout 中播放的音效（如三星通关）无声。
 function initAudio() {
     if (!audioCtx) {
-        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if (!Ctx) return;
+        audioCtx = new Ctx();
     }
-    if (audioCtx.state === 'suspended') {
-        audioCtx.resume();
+    if (audioCtx.state === 'suspended' && audioCtx.resume) {
+        audioCtx.resume().catch(function () {});
     }
 }
+
+// 在任意用户手势（点击/触摸）的同步阶段解锁音频，
+// 保证后续 setTimeout 中的延时音效也能正常播放
+function unlockAudio() {
+    if (audioUnlocked) return;
+    audioUnlocked = true;
+    initAudio();
+}
+document.addEventListener('pointerdown', unlockAudio);
+document.addEventListener('touchend', unlockAudio);
 
 // 播放音调
 function playTone(frequency, duration, type = 'sine', volume = 0.3) {
@@ -1848,6 +1899,8 @@ function playWin() {
 
 // 按钮点击音效（全局）
 document.addEventListener('click', function(e) {
+    // 任意点击都确保音频上下文处于运行状态，避免延时音效（如三星通关）无声
+    initAudio();
     if (e.target.tagName === 'BUTTON' || e.target.closest('button')) {
         playClick();
     }
@@ -1856,6 +1909,7 @@ document.addEventListener('click', function(e) {
 // ==================== 初始化 ====================
 
 window.onload = function() {
+    warmUpVoices(); // 预加载语音列表，避免首次朗读时语音尚未就绪
     document.getElementById('login-btn').onclick = login;
     
     // 回车进入学习档案

@@ -10,7 +10,7 @@
   "theme_color": "#ff6b6b",
   "icons": [
     {
-      "src": "../assets/characters/egg_default.png",
+      "src": "assets/characters/egg_default.png",
       "sizes": "1920x1920",
       "type": "image/png",
       "purpose": "any maskable"

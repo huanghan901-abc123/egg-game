@@ -7,3 +7,7 @@ Thumbs.db
 # Local runtime data
 node_modules/
 dist/
+
+
+# 备份文件
+*.bak
