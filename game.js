@@ -3,59 +3,59 @@
 // 皮肤数据
 const SKINS = {
     // 普通品质
-    default: { name: '默认小蛋', img: 'assets/characters/egg_default.png', rarity: 'common' },
-    crocodile: { name: '鳄鱼小蛋', img: 'assets/characters/egg_crocodile.png', rarity: 'common' },
-    gorilla: { name: '猩猩小蛋', img: 'assets/characters/egg_gorilla.png', rarity: 'common' },
-    hippo: { name: '河马小蛋', img: 'assets/characters/egg_hippo.png', rarity: 'common' },
-    giraffe: { name: '长颈鹿小蛋', img: 'assets/characters/egg_giraffe.png', rarity: 'common' },
+    default: { name: '默认小蛋', img: 'assets/characters/egg_default.webp', rarity: 'common' },
+    crocodile: { name: '鳄鱼小蛋', img: 'assets/characters/egg_crocodile.webp', rarity: 'common' },
+    gorilla: { name: '猩猩小蛋', img: 'assets/characters/egg_gorilla.webp', rarity: 'common' },
+    hippo: { name: '河马小蛋', img: 'assets/characters/egg_hippo.webp', rarity: 'common' },
+    giraffe: { name: '长颈鹿小蛋', img: 'assets/characters/egg_giraffe.webp', rarity: 'common' },
     // 稀有品质
-    dino: { name: '恐龙小蛋', img: 'assets/characters/egg_dino.png', rarity: 'rare' },
-    pangolin: { name: '穿山甲小蛋', img: 'assets/characters/egg_pangolin.png', rarity: 'rare' },
+    dino: { name: '恐龙小蛋', img: 'assets/characters/egg_dino.webp', rarity: 'rare' },
+    pangolin: { name: '穿山甲小蛋', img: 'assets/characters/egg_pangolin.webp', rarity: 'rare' },
     // 史诗品质
-    wizard: { name: '魔法师小蛋', img: 'assets/characters/egg_wizard.png', rarity: 'epic' },
-    cat: { name: '小猫小蛋', img: 'assets/characters/egg_cat.png', rarity: 'epic' },
+    wizard: { name: '魔法师小蛋', img: 'assets/characters/egg_wizard.webp', rarity: 'epic' },
+    cat: { name: '小猫小蛋', img: 'assets/characters/egg_cat.webp', rarity: 'epic' },
     // 传说品质
-    ninja: { name: '忍者小蛋', img: 'assets/characters/egg_ninja.png', rarity: 'legendary' },
-    student: { name: '学生小蛋', img: 'assets/characters/egg_student.png', rarity: 'legendary' },
+    ninja: { name: '忍者小蛋', img: 'assets/characters/egg_ninja.webp', rarity: 'legendary' },
+    student: { name: '学生小蛋', img: 'assets/characters/egg_student.webp', rarity: 'legendary' },
     // 至尊无敌品质
-    haohao: { name: '昊浩小蛋', img: 'assets/characters/egg_haohao.png', rarity: 'mythic' }
+    haohao: { name: '昊浩小蛋', img: 'assets/characters/egg_haohao.webp', rarity: 'mythic' }
 };
 
 // 地图背景图
 const MAP_BACKGROUNDS = {
     desert: [
-        'assets/backgrounds/desert/desert_01_worm_cave.png',
-        'assets/backgrounds/desert/desert_02_oasis_camp.png',
-        'assets/backgrounds/desert/desert_03_quicksand_chest.png',
-        'assets/backgrounds/desert/desert_04_mine_entrance.png',
-        'assets/backgrounds/desert/desert_05_small_oasis.png',
-        'assets/backgrounds/desert/desert_06_camel_shop.png',
-        'assets/backgrounds/desert/desert_07_rock_arch.png',
-        'assets/backgrounds/desert/desert_08_bone_wasteland.png',
-        'assets/backgrounds/desert/desert_09_red_canyon.png',
-        'assets/backgrounds/desert/desert_10_ancient_ruins.png',
-        'assets/backgrounds/desert/desert_11_sundial_stones.png',
-        'assets/backgrounds/desert/desert_12_mushroom_rocks.png',
-        'assets/backgrounds/desert/desert_13_desert_tower.png',
-        'assets/backgrounds/desert/desert_14_golden_temple.png',
-        'assets/backgrounds/desert/desert_15_mirage.png'
+        'assets/backgrounds/desert/desert_01_worm_cave.jpg',
+        'assets/backgrounds/desert/desert_02_oasis_camp.jpg',
+        'assets/backgrounds/desert/desert_03_quicksand_chest.jpg',
+        'assets/backgrounds/desert/desert_04_mine_entrance.jpg',
+        'assets/backgrounds/desert/desert_05_small_oasis.jpg',
+        'assets/backgrounds/desert/desert_06_camel_shop.jpg',
+        'assets/backgrounds/desert/desert_07_rock_arch.jpg',
+        'assets/backgrounds/desert/desert_08_bone_wasteland.jpg',
+        'assets/backgrounds/desert/desert_09_red_canyon.jpg',
+        'assets/backgrounds/desert/desert_10_ancient_ruins.jpg',
+        'assets/backgrounds/desert/desert_11_sundial_stones.jpg',
+        'assets/backgrounds/desert/desert_12_mushroom_rocks.jpg',
+        'assets/backgrounds/desert/desert_13_desert_tower.jpg',
+        'assets/backgrounds/desert/desert_14_golden_temple.jpg',
+        'assets/backgrounds/desert/desert_15_mirage.jpg'
     ],
     forest: [
-        'assets/backgrounds/forest/forest_01_tree_house.png',
-        'assets/backgrounds/forest/forest_02_crystal_shrine.png',
-        'assets/backgrounds/forest/forest_03_lightning_tree.png',
-        'assets/backgrounds/forest/forest_04_glowing_path.png',
-        'assets/backgrounds/forest/forest_05_rope_bridge.png',
-        'assets/backgrounds/forest/forest_06_bone_cave.png',
-        'assets/backgrounds/forest/forest_07_herb_garden.png',
-        'assets/backgrounds/forest/forest_08_forest_camp.png',
-        'assets/backgrounds/forest/forest_09_foggy_forest.png',
-        'assets/backgrounds/forest/forest_10_mushroom_forest.png',
-        'assets/backgrounds/forest/forest_11_rune_stones.png',
-        'assets/backgrounds/forest/forest_12_waterfall.png',
-        'assets/backgrounds/forest/forest_13_swamp.png',
-        'assets/backgrounds/forest/forest_14_tree_root_cave.png',
-        'assets/backgrounds/forest/forest_15_moss_stele.png'
+        'assets/backgrounds/forest/forest_01_tree_house.jpg',
+        'assets/backgrounds/forest/forest_02_crystal_shrine.jpg',
+        'assets/backgrounds/forest/forest_03_lightning_tree.jpg',
+        'assets/backgrounds/forest/forest_04_glowing_path.jpg',
+        'assets/backgrounds/forest/forest_05_rope_bridge.jpg',
+        'assets/backgrounds/forest/forest_06_bone_cave.jpg',
+        'assets/backgrounds/forest/forest_07_herb_garden.jpg',
+        'assets/backgrounds/forest/forest_08_forest_camp.jpg',
+        'assets/backgrounds/forest/forest_09_foggy_forest.jpg',
+        'assets/backgrounds/forest/forest_10_mushroom_forest.jpg',
+        'assets/backgrounds/forest/forest_11_rune_stones.jpg',
+        'assets/backgrounds/forest/forest_12_waterfall.jpg',
+        'assets/backgrounds/forest/forest_13_swamp.jpg',
+        'assets/backgrounds/forest/forest_14_tree_root_cave.jpg',
+        'assets/backgrounds/forest/forest_15_moss_stele.jpg'
     ]
 };
 

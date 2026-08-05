@@ -11,7 +11,7 @@
   "icons": [
     {
       "src": "assets/characters/egg_default.png",
-      "sizes": "1920x1920",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
