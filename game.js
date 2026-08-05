@@ -60,27 +60,27 @@ const MAP_BACKGROUNDS = {
 };
 
 // 抽奖概率
-// 普通30% / 稀有20% / 史诗10% / 传说5% / 至尊无敌1% / 碎片34%
+// 普通15% / 稀有10% / 史诗5% / 传说2.5% / 至尊无敌0.5% / 碎片67%
 const GACHA_POOL = [
-    // 普通品质（5个，每个6%，共30%）
-    { id: 'default', weight: 6 },
-    { id: 'crocodile', weight: 6 },
-    { id: 'gorilla', weight: 6 },
-    { id: 'hippo', weight: 6 },
-    { id: 'giraffe', weight: 6 },
-    // 稀有品质（2个，每个10%，共20%）
-    { id: 'dino', weight: 10 },
-    { id: 'pangolin', weight: 10 },
-    // 史诗品质（2个，每个5%，共10%）
-    { id: 'wizard', weight: 5 },
-    { id: 'cat', weight: 5 },
-    // 传说品质（2个，每个2.5%，共5%）
-    { id: 'ninja', weight: 2.5 },
-    { id: 'student', weight: 2.5 },
-    // 至尊无敌品质（1个，1%）
-    { id: 'haohao', weight: 1 },
-    // 碎片（34%）：每次抽奖都有收获，避免挫败感
-    { id: 'fragment', weight: 34 }
+    // 普通品质（5个，每个3%，共15%）
+    { id: 'default', weight: 3 },
+    { id: 'crocodile', weight: 3 },
+    { id: 'gorilla', weight: 3 },
+    { id: 'hippo', weight: 3 },
+    { id: 'giraffe', weight: 3 },
+    // 稀有品质（2个，每个5%，共10%）
+    { id: 'dino', weight: 5 },
+    { id: 'pangolin', weight: 5 },
+    // 史诗品质（2个，每个2.5%，共5%）
+    { id: 'wizard', weight: 2.5 },
+    { id: 'cat', weight: 2.5 },
+    // 传说品质（2个，每个1.25%，共2.5%）
+    { id: 'ninja', weight: 1.25 },
+    { id: 'student', weight: 1.25 },
+    // 至尊无敌品质（1个，0.5%）
+    { id: 'haohao', weight: 0.5 },
+    // 碎片（67%）：每次抽奖都有收获，避免挫败感
+    { id: 'fragment', weight: 67 }
 ];
 
 // 示例单词数据（用户可以替换成真实的Excel数据）
